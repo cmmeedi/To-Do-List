@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap JS with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- This is the Console App -->
+    <script src="/Projects/To-Do-List/toDo.js" defer></script>
+    <!-- This is the HTML App -->
+    <!-- <script src="/toDontHTML.js" defer></script> -->
+    <title>Document</title>
+  </head>
+  <body id="body">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-9">
+          <h1 class="display-1">To-Do List</h1>
+
+          <form id="inputGroup" class="input-group">
+            <label for="thisTask">Add a Task</label>
+            <input
+              id="thisTask"
+              type="text"
+              aria-label="Task"
+              class="form-control"
+              placeholder="Please enter in a task to add to your list"
+            />
+            <input
+              id="thisButton"
+              type="submit"
+              value="Submit"
+              class="btn btn-outline-primary"
+            />
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
